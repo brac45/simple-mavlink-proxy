@@ -7,7 +7,7 @@ The basic flow of the program is shown below:
 ```
 Serial Input(SiK radio or px4/APM compatible flight controller) 
 
-  --> program(parses mavlink frames then prints those to a textfile)
+	--> program(parses mavlink frames then prints those to a textfile)
 
 	--> target GCS(QGroundControl or something similiar)(via UDP)
 
