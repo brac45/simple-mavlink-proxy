@@ -1,0 +1,5 @@
+# Ignore unnecessary files
+build/*
+bin/*
+logs/*
+__pycache__
