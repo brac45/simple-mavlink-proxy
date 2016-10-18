@@ -2,10 +2,9 @@ simple-mavlink-proxy
 ======
 
 A simple mavlink proxy for mavlink communication analysis.
-
 The basic flow of the program is shown below:
 
-
+```
 Serial Input(SiK radio or px4/APM compatible flight controller) 
 
   --> program(parses mavlink frames then prints those to a textfile)
@@ -15,6 +14,7 @@ Serial Input(SiK radio or px4/APM compatible flight controller)
 	--> program(processes frames from the GCS this time)
 
 	--> Serial Output(SiK radio or px4/APM compatible flight controller) 
+```
 
 Project directory is as follows:
 
